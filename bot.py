@@ -356,7 +356,7 @@ async def main():
         if db_pool:
             await db_pool.close()
 
-if name == "main":
+if __name__ == "__main__":
     if os.name == 'nt':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
