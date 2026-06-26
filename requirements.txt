@@ -8,3 +8,4 @@ python-dotenv==1.0.1
 playwright==1.49.0
 deep-translator==1.11.4
 psutil==5.9.8
+httpx
